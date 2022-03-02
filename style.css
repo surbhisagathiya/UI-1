@@ -1,9 +1,9 @@
 html {
-    font-size:62.5%;
+    font-size: 62.5%;
 }
 
 .Rectangle-8 {
-    width: auto;
+    width: 100%;
     height: 75rem;
     padding: 5rem 0 5rem;
     background-image: linear-gradient(323deg, #112970 108%, #25439d 34%);
@@ -12,18 +12,19 @@ html {
 img.Logo {
     width: 18.8rem;
     height: auto;
-    margin: 1rem 42% .1rem;
+    /* margin: 1rem 42% .1rem; */
     object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 
-
 .Rectangle {
-    width: 41.0rem;
+    width: 41rem;
     height: 47.4rem;
     margin: 5rem auto 7.1rem;
-    padding: 3rem 4.6rem 3.8rem;
-    border-radius: .4rem;
-    box-shadow: 0 .2rem .5rem 0 rgba(0, 0, 0, 0.2);
+    padding: 3rem auto 3.8rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.2);
     background-color: #183380;
     /* border: 1px white solid; */
 }
@@ -31,7 +32,7 @@ img.Logo {
 .Rectangle1 {
     width: auto;
     height: 2rem;
-    margin: 10rem 0rem 0;
+    margin: 16rem 0rem 0;
     padding: 1.5rem 8.2rem 1.5rem 8.1rem;
     background-color: #1c2646;
     /* border: 2px solid white; */
@@ -41,9 +42,9 @@ img.Logo {
     /* position: absolute; */
     width: 31.8rem;
     height: 11.7rem;
-    margin: 0 0 3rem;
+    margin: 5rem 0 5rem;
     font-family: NunitoSans;
-    font-size: 3.2rem;
+    font-size: 3.0rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -52,34 +53,27 @@ img.Logo {
     color: #ffffff;
     text-align: center;
     margin-left: 5rem;
+    display: block;
+    padding-top: 2.5rem;
 }
 
-/* .Rectangle-6 {
-    width: 18%;
-    height: 1.8rem;
-    margin: 3.4rem 0 4.5rem;
-    padding: 1.2rem 12.6rem 1.1rem;
-    border-radius: 2.25rem;
-    background-color: #20cdbb;
-    text-align: center;
-    margin-left: 3.5rem;
-} */
-
 .Rectangle-6 {
-    width: 30%;
-    height: 3.5rem;
-    margin: 3rem auto 3.5rem;
-    padding: 1.2rem 12.6rem 1rem;
+    width: 15%;
+    height: 2.5rem;
+    margin: 3rem 6rem 3.5rem;
+    padding: 1.6rem 11.6rem 1rem;
     border-radius: 2.25rem;
     background-color: #20cdbb;
     text-align: center;
+    display: block;
+    /* border: 1px white solid ; */
 }
 
 .Log-In {
-    width: 3rem;
-    height: 2.2rem;
+    width: 4.8rem;
+    height: 3.2rem;
     font-family: NunitoSans;
-    font-size: 2.3rem;
+    font-size: 1.6rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -94,13 +88,14 @@ img.Logo {
     /* margin-left: 1rem; */
     margin-bottom: 3rem;
     text-align: center;
+    margin-left: 2rem;
     /* margin-top: 100rem; */
 }
 
 .OR {
     width: 2rem;
     height: 1.8rem;
-    margin: 0rem 3rem;
+    margin: 0rem 1.5rem;
     opacity: 0.15;
     font-family: Roboto;
     font-size: 1.7rem;
@@ -114,27 +109,27 @@ img.Logo {
 }
 
 .Line1 {
-    width: 18rem;
+    width: 13rem;
     height: 0rem;
-    margin: .6rem 1.4rem .7rem 0;
+    margin: 0.6rem 0rem 0.7rem 3.5rem;
     opacity: 0.1;
-    border: solid .1rem #ffffff;
+    border: solid 0.1rem #ffffff;
 }
 .Line2 {
-    width: 18rem;
+    width: 13rem;
     height: 0rem;
-    margin: .6rem 0 .7rem .14rem;
+    margin: 0.6rem 3.5rem 0.7rem 0.14rem;
     opacity: 0.1;
-    border: solid .1rem #ffffff;
+    border: solid 0.1rem #ffffff;
 }
 
 .Dont-have-an-accoun {
     width: 16.9rem;
     height: 2rem;
-    margin: 2.5rem 8rem 1.5rem;
+    margin: 2.5rem 12rem 1.5rem;
     opacity: 0.5;
     font-family: NunitoSans;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -142,14 +137,13 @@ img.Logo {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    /* border: 1px white solid; */
 }
 
 .Sign-Up {
-    width: 3rem;
-    height: 2.2rem;
+    width: 4.8rem;
+    height: 3.2rem;
     font-family: NunitoSans;
-    font-size: 2.3rem;
+    font-size: 1.6rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -157,6 +151,7 @@ img.Logo {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    /* border: 1px white solid; */
 }
 
 .footer {
@@ -173,6 +168,9 @@ img.Logo {
     letter-spacing: normal;
     color: white;
     /* border: 1px white solid; */
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
 }
 
 @media (max-width: 998px) {
