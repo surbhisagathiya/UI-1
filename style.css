@@ -131,10 +131,10 @@ img.Logo {
 .Dont-have-an-accoun {
     width: 16.9rem;
     height: 2rem;
-    margin: 2.5rem 9rem 1.5rem;
+    margin: 2.5rem 8rem 1.5rem;
     opacity: 0.5;
     font-family: NunitoSans;
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -142,6 +142,7 @@ img.Logo {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    /* border: 1px white solid; */
 }
 
 .Sign-Up {
