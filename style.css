@@ -1,42 +1,58 @@
+html {
+    font-size:62.5%;
+}
+
 .Rectangle-8 {
     width: auto;
-    height: 591px;
-    padding: 50px 0 50px;
+    height: 75rem;
+    padding: 5rem 0 5rem;
     background-image: linear-gradient(323deg, #112970 108%, #25439d 34%);
 }
 
 img.Logo {
-    width: 168px;
-    height: 59px;
-    margin: 10px 566px -10px;
+    width: 15%;
+    height: auto;
+    margin: 1rem 41% .1rem;
     object-fit: contain;
 }
 
-.Rectangle {
-    width: 410px;
-    height: 374px;
-    margin: 30px auto 71px;
-    padding: 30px 46px 38px;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+/* .Rectangle {
+    width: 43.0rem;
+    height: 45.4rem;
+    margin: 3rem auto 7.1rem;
+    padding: 3rem 4.6rem 3.8rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.2);
     background-color: #183380;
+} */
+
+.Rectangle {
+    width: 55rem;
+    height: 41.4rem;
+    margin: 6rem auto 7.1rem;
+    padding: 3rem 4.6rem 3.8rem;
+    border-radius: .4rem;
+    box-shadow: 0 .2rem .5rem 0 rgba(0, 0, 0, 0.2);
+    background-color: #183380;
+    /* border: 1px white solid; */
 }
 
 .Rectangle1 {
     width: auto;
-    /* height: 36px; */
-    margin: 71px 0 0;
-    padding: 9px 82px 7px 81px;
+    height: 2rem;
+    margin: 15rem 0rem 0;
+    padding: 1.5rem 8.2rem 1.5rem 8.1rem;
     background-color: #1c2646;
+    /* border: 2px solid white; */
 }
 
 .Quality-research-rep {
     /* position: absolute; */
-    width: 318px;
-    height: 117px;
-    margin: 0 0 30px;
+    width: 31.8rem;
+    height: 11.7rem;
+    margin: 0 0 3rem;
     font-family: NunitoSans;
-    font-size: 28px;
+    font-size: 3.2rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -44,25 +60,35 @@ img.Logo {
     letter-spacing: normal;
     color: #ffffff;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 5rem;
 }
 
-.Rectangle-6 {
-    width: 75px;
-    height: 18px;
-    margin: 34px 0 45px;
-    padding: 12px 126px 11px;
-    border-radius: 22.5px;
+/* .Rectangle-6 {
+    width: 18%;
+    height: 1.8rem;
+    margin: 3.4rem 0 4.5rem;
+    padding: 1.2rem 12.6rem 1.1rem;
+    border-radius: 2.25rem;
     background-color: #20cdbb;
     text-align: center;
-    margin-left: 35px;
+    margin-left: 3.5rem;
+} */
+
+.Rectangle-6 {
+    width: 30%;
+    height: 3.5rem;
+    margin: 3rem auto 3.5rem;
+    padding: 1.2rem 12.6rem 1rem;
+    border-radius: 2.25rem;
+    background-color: #20cdbb;
+    text-align: center;
 }
 
 .Log-In {
-    width: 61px;
-    height: 22px;
+    width: 3rem;
+    height: 2.2rem;
     font-family: NunitoSans;
-    font-size: 16px;
+    font-size: 2.3rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -74,47 +100,63 @@ img.Logo {
 
 .Rectangle-5 {
     display: flex;
-    margin-left: 45px;
-    margin-bottom: 30px;
-    /* margin-top: 100px; */
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    /* margin-top: 100rem; */
+}
+
+.OR {
+    width: 2rem;
+    height: 1.8rem;
+    margin: 0rem 3rem;
+    opacity: 0.15;
+    font-family: Roboto;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
 }
 
 .Line1 {
-    width: 128px;
-    height: 0px;
-    margin: 6px 14px 7px 0;
+    width: 18rem;
+    height: 0rem;
+    margin: .6rem 1.4rem .7rem 0;
     opacity: 0.1;
-    border: solid 1px #ffffff;
+    border: solid .1rem #ffffff;
 }
 .Line2 {
-    width: 128px;
-    height: 0px;
-    margin: 6px 0 7px 14px;
+    width: 18rem;
+    height: 0rem;
+    margin: .6rem 0 .7rem .14rem;
     opacity: 0.1;
-    border: solid 1px #ffffff;
+    border: solid .1rem #ffffff;
 }
 
 .Dont-have-an-accoun {
-    width: 169px;
-    height: 20px;
-    margin: 25px 118.5px 15px;
+    width: 16.9rem;
+    height: 2rem;
+    margin: 2.5rem 16rem 1.5rem;
     opacity: 0.5;
     font-family: NunitoSans;
-    font-size: 14px;
+    font-size: 2rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.43;
     letter-spacing: normal;
-    text-align: center;
+    /* text-align: center; */
     color: #ffffff;
 }
 
 .Sign-Up {
-    width: 61px;
-    height: 22px;
+    width: 3rem;
+    height: 2.2rem;
     font-family: NunitoSans;
-    font-size: 16px;
+    font-size: 2.3rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -125,102 +167,29 @@ img.Logo {
 }
 
 .footer {
-    width: 225px;
-    height: 20px;
-    margin: 0 796px 0 0;
+    width: 22.5rem;
+    height: 2rem;
+    margin: 0 auto 0 0;
     opacity: 0.7;
     font-family: NunitoSans;
-    font-size: 15px;
+    font-size: 1.8rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     color: white;
+    /* border: 1px white solid; */
+}
+
+@media (max-width: 998px) {
+    html {
+        font-size: 55%;
+    }
 }
 
 @media (max-width: 768px) {
-    .Rectangle {
-        width: 410px;
-        height: 374px;
-        margin: 20px auto 71px;
-        padding: 20px 46px 38px;
-        border-radius: 4px;
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-        background-color: #183380;
-    }
-    img.Logo {
-        width: 168px;
-        height: 59px;
-        margin: 10px 290px -10px;
-        object-fit: contain;
-    }
-}
-
-@media (max-width: 417px) {
-    .Rectangle {
-        width: 65%;
-        height: 100%;
-        margin: 20px auto 71px;
-        padding: 20px 46px 38px;
-        border-radius: 4px;
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-        background-color: #183380;
-        font-size: small;
-        /* border: 1px white solid; */
-    }
-    img.Logo {
-        width: 150px;
-        height: 65px;
-        margin: 10px 103px -10px;
-        object-fit: contain;
-    }
-    .Quality-research-rep {
-        /* position: absolute; */
-        width: 218px;
-        height: 117px;
-        margin: 0 0 30px;
-        font-family: NunitoSans;
-        font-size: 22px;
-        font-weight: 800;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.39;
-        letter-spacing: normal;
-        color: #ffffff;
-        text-align: center;
-        /* margin-left: 15px; */
-        /* border: 1px white solid; */
-    }
-    .Rectangle-6 {
-        width: 75px;
-        height: 18px;
-        margin: 35px 0 45px;
-        padding: 15px 68px 12px;
-        border-radius: 22.5px;
-        background-color: #20cdbb;
-        text-align: center;
-        margin-left: 8px;
-    }
-    .Rectangle-5 {
-        display: flex;
-        margin-left: 3px;
-        margin-bottom: 30px;
-        /* margin-top: 100px; */
-    }
-    .Dont-have-an-accoun {
-        width: 169px;
-        height: 20px;
-        margin: 25px 38px 15px;
-        opacity: 0.5;
-        font-family: NunitoSans;
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.43;
-        letter-spacing: normal;
-        text-align: center;
-        color: #ffffff;
+    html {
+        font-size: 45%;
     }
 }
