@@ -10,26 +10,17 @@ html {
 }
 
 img.Logo {
-    width: 15%;
+    width: 23rem;
     height: auto;
-    margin: 1rem 41% .1rem;
+    margin: 1rem 40% .1rem;
     object-fit: contain;
 }
 
-/* .Rectangle {
-    width: 43.0rem;
-    height: 45.4rem;
-    margin: 3rem auto 7.1rem;
-    padding: 3rem 4.6rem 3.8rem;
-    border-radius: 0.4rem;
-    box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.2);
-    background-color: #183380;
-} */
 
 .Rectangle {
-    width: 55rem;
-    height: 41.4rem;
-    margin: 6rem auto 7.1rem;
+    width: 41.0rem;
+    height: 47.4rem;
+    margin: 5rem auto 7.1rem;
     padding: 3rem 4.6rem 3.8rem;
     border-radius: .4rem;
     box-shadow: 0 .2rem .5rem 0 rgba(0, 0, 0, 0.2);
@@ -40,7 +31,7 @@ img.Logo {
 .Rectangle1 {
     width: auto;
     height: 2rem;
-    margin: 15rem 0rem 0;
+    margin: 10rem 0rem 0;
     padding: 1.5rem 8.2rem 1.5rem 8.1rem;
     background-color: #1c2646;
     /* border: 2px solid white; */
@@ -139,7 +130,7 @@ img.Logo {
 .Dont-have-an-accoun {
     width: 16.9rem;
     height: 2rem;
-    margin: 2.5rem 16rem 1.5rem;
+    margin: 2.5rem 9rem 1.5rem;
     opacity: 0.5;
     font-family: NunitoSans;
     font-size: 2rem;
