@@ -184,3 +184,9 @@ img.Logo {
         font-size: 48%;
     }
 }
+
+@media (max-width: 320px) {
+    html {
+        font-size: 30%;
+    }
+}
