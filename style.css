@@ -189,18 +189,30 @@ img.Logo {
 
 @media (max-width: 768px) {
     html {
-        font-size: 60%;
+        font-size: 48%;
     }
 }
 
 @media (max-width: 320px) {
     html {
-        font-size: 30%;
+        font-size: 36%;
+    }
+}
+
+@media (max-width: 250px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media (max-width: 240px) {
+    html {
+        font-size: 33%;
     }
 }
 
 @media (max-width: 220px) {
     html {
-        font-size: 25%;
+        font-size: 26%;
     }
 }
