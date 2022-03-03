@@ -1,6 +1,10 @@
 html {
     font-size: 62.5%;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .Rectangle-8 {
     width: 100%;
@@ -185,7 +189,7 @@ img.Logo {
 
 @media (max-width: 768px) {
     html {
-        font-size: 48%;
+        font-size: 60%;
     }
 }
 
