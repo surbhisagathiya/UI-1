@@ -190,3 +190,9 @@ img.Logo {
         font-size: 30%;
     }
 }
+
+@media (max-width: 220px) {
+    html {
+        font-size: 25%;
+    }
+}
