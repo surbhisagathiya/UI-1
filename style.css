@@ -123,10 +123,14 @@ img.Logo {
     border: solid 0.1rem #ffffff;
 }
 
+.Rectangle-7{
+    text-align: center;
+}
+
 .Dont-have-an-accoun {
     width: 16.9rem;
     height: 2rem;
-    margin: 12rem;
+    /* margin: 0 9.7rem; */
     opacity: 0.5;
     font-family: NunitoSans;
     font-size: 1.5rem;
@@ -135,7 +139,7 @@ img.Logo {
     font-style: normal;
     line-height: 1.43;
     letter-spacing: normal;
-    text-align: center;
+    /* text-align: center; */
     color: #ffffff;
 }
 
