@@ -1,7 +1,7 @@
 html {
     font-size: 62.5%;
 }
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -35,6 +35,7 @@ img.Logo {
 
 .Rectangle1 {
     width: auto;
+    display: flex;
     height: 2rem;
     margin: 37rem 0rem 0;
     padding: 1.5rem 8.2rem 1.5rem 8.1rem;
@@ -69,6 +70,8 @@ img.Logo {
     border-radius: 2.25rem;
     background-color: #20cdbb;
     text-align: center;
+    display: block;
+    cursor: pointer;
     display: block;
     /* border: 1px white solid ; */
 }
@@ -127,7 +130,7 @@ img.Logo {
     border: solid 0.1rem #ffffff;
 }
 
-.Rectangle-7{
+.Rectangle-7 {
     text-align: center;
 }
 
@@ -168,7 +171,7 @@ img.Logo {
     margin: 0 auto 0 0;
     opacity: 0.7;
     font-family: NunitoSans;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -179,6 +182,22 @@ img.Logo {
     /* position: fixed;
     left: 0;
     bottom: 0; */
+}
+
+.social-icon {
+    width: 96px;
+    height: 18px;
+    margin: 1px 0 1px 796px;
+    opacity: 0.7;
+    font-family: FontAwesome;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
 }
 
 @media (max-width: 998px) {
